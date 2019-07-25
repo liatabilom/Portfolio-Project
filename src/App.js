@@ -1,5 +1,6 @@
 import React from "react";
-import "font-awesome/css/font-awesome.min.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInfoCircle } from "@fortawesome/free-solid-svg-icons";
 import "./App.css";
 
 function App() {
@@ -17,9 +18,9 @@ function App() {
             <input className="emailInput" type="text" placeholder="Email" />
           </div>
           <div className="float-left ml-2">
-            <i class="fas fa-info-circle" size="lg" />
+            <FontAwesomeIcon icon={faInfoCircle} size="lg" />
           </div>
-          <div className="float-left ml-2" />
+          <div className="avocado float-left ml-2">🥑</div>
         </form>
       </div>
       <h2>
