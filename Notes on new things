@@ -11,3 +11,13 @@ How to use FontAwesome in React
 
 3. Use
   <FontAwesomeIcon icon={ faThumbsUp } size="lg"/>
+
+
+How to install axios
+
+1. $ npm i axios
+
+
+How to install bootstrap
+
+1. $ npm i bootstrap@4.3.1
