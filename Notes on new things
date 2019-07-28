@@ -19,8 +19,15 @@ How to install axios
 2. import axios from "axios";
 (to the component you're gonna use it on)
 
+
 How to install bootstrap
 
 1. $ npm i bootstrap@4.3.1
 2. import "bootstrap/dist/css/bootstrap.css";
 (to Index.js)
+
+
+How to install GoogleFonts
+
+@import url("https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap");
+(update url to font you will use)
